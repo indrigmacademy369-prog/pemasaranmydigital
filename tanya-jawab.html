@@ -1,0 +1,380 @@
+﻿<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Tanya Jawab - Agensi Digital Marketing</title>
+  <meta name="description" content="Tanya jawab Agensi Digital Marketing: pertanyaan umum seputar layanan pemasaran digital, alur kerja, laporan, dan biaya.">
+  <meta name="keywords" content="tanya jawab, FAQ, layanan pemasaran digital, biaya, alur kerja">
+
+  <!-- Favicon -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Font -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- File CSS Vendor -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+
+  <!-- File CSS Utama -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- File CSS Halaman Tanya Jawab -->
+  <link href="assets/css/tanya-jawab.css" rel="stylesheet">
+
+  <!-- File CSS Tombol WhatsApp -->
+  <link href="assets/css/whatsapp.css" rel="stylesheet">
+
+</head>
+
+<body class="tanya-jawab-page">
+
+  <header id="header" class="header d-flex align-items-center sticky-top">
+    <div class="header-container container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
+        <!-- Hapus komentar baris di bawah jika ingin memakai logo gambar -->
+        <!-- <img src="assets/img/logo.webp" alt=""> -->
+        <img src="assets/img/favicon.png" alt="Agensi Digital Marketing Logo" style="max-height: 75px;">
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html">Beranda</a></li>
+          <li><a href="about.html">Tentang Kami</a></li>
+          <li class="dropdown nav-layanan"><a href="layanan.html"><span>Layanan</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="social-media-management.html">Social Media Management</a></li>
+              <li><a href="paid-ads.html">Paid Ads (Meta &amp; Google Ads)</a></li>
+              <li><a href="content-creation.html">Content Creation</a></li>
+              <li><a href="seo-website-optimization.html">SEO &amp; Website Optimization</a></li>
+            </ul>
+          </li>
+          <li><a href="portofolio.html">Portofolio</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li class="dropdown"><a href="lainnya.html" class="active"><span>Lainnya</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="studi-kasus.html">Studi Kasus</a></li>
+              <li><a href="karier.html">Karier</a></li>
+              <li><a href="tanya-jawab.html" class="active">Tanya Jawab</a></li>
+            </ul>
+          </li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+      <a class="btn-getstarted" href="index.html#contact">Konsultasi Gratis</a>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Judul Halaman -->
+    <div class="page-title">
+      <div class="breadcrumbs">
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="index.html"><i class="bi bi-house"></i> Beranda</a></li>
+            <li class="breadcrumb-item active current">Tanya Jawab</li>
+          </ol>
+        </nav>
+      </div>
+
+      <div class="title-wrapper">
+        <h1>Tanya Jawab</h1>
+        <p>Jawaban atas pertanyaan yang paling sering diajukan seputar layanan dan cara kerja kami.</p>
+      </div>
+    </div><!-- Akhir Judul Halaman -->
+
+    <!-- Bagian Tanya Jawab -->
+    <section id="faq" class="faq section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row justify-content-center">
+          <div class="col-lg-9">
+
+            <div class="faq-toolbar">
+              <form class="faq-search" role="search">
+                <input type="search" id="faq-search" placeholder="Cari pertanyaan..." aria-label="Cari pertanyaan" autocomplete="off">
+                <button type="submit" aria-label="Cari"><i class="bi bi-search"></i></button>
+              </form>
+
+              <ul class="faq-filters">
+              <li><button type="button" class="faq-filter active" data-category="all" aria-pressed="true">Semua</button></li>
+              <li><button type="button" class="faq-filter" data-category="umum" aria-pressed="false">Umum</button></li>
+              <li><button type="button" class="faq-filter" data-category="layanan" aria-pressed="false">Layanan</button></li>
+              <li><button type="button" class="faq-filter" data-category="proses" aria-pressed="false">Proses &amp; Laporan</button></li>
+              <li><button type="button" class="faq-filter" data-category="biaya" aria-pressed="false">Biaya</button></li>
+              </ul>
+            </div>
+
+            <p class="faq-result" id="faq-result" aria-live="polite">Menampilkan <strong>12</strong> dari 12 pertanyaan</p>
+
+            <div class="faq-list">
+
+            <div class="faq-item" data-category="umum">
+              <button class="faq-question" type="button" data-bs-toggle="collapse" data-bs-target="#faq-1" aria-expanded="false" aria-controls="faq-1">
+                <span>Apa itu Agensi Digital Marketing dan apa yang Anda kerjakan?</span>
+                <i class="bi bi-plus-lg"></i>
+              </button>
+              <div id="faq-1" class="collapse">
+                <div class="faq-answer">
+                  <p>Agensi Digital Marketing adalah agensi pemasaran digital yang membantu bisnis tumbuh lewat strategi yang kreatif, terukur, dan berfokus pada hasil nyata. Layanan kami mencakup pengelolaan media sosial, iklan berbayar, pembuatan konten, serta SEO dan optimasi website.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="faq-item" data-category="umum">
+              <button class="faq-question" type="button" data-bs-toggle="collapse" data-bs-target="#faq-2" aria-expanded="false" aria-controls="faq-2">
+                <span>Industri apa saja yang Anda layani?</span>
+                <i class="bi bi-plus-lg"></i>
+              </button>
+              <div id="faq-2" class="collapse">
+                <div class="faq-answer">
+                  <p>Kami bekerja dengan brand dari berbagai industri. Setiap strategi disusun berdasarkan riset dan pemahaman terhadap audiens bisnis Anda, sehingga pendekatannya selalu disesuaikan.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="faq-item" data-category="umum">
+              <button class="faq-question" type="button" data-bs-toggle="collapse" data-bs-target="#faq-3" aria-expanded="false" aria-controls="faq-3">
+                <span>Apakah ada konsultasi awal tanpa biaya?</span>
+                <i class="bi bi-plus-lg"></i>
+              </button>
+              <div id="faq-3" class="collapse">
+                <div class="faq-answer">
+                  <p>Ya. Kami menyediakan konsultasi gratis untuk memahami tujuan bisnis Anda dan memberikan rekomendasi awal. Anda bisa mengirim pesan lewat form di halaman kontak.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="faq-item" data-category="umum">
+              <button class="faq-question" type="button" data-bs-toggle="collapse" data-bs-target="#faq-4" aria-expanded="false" aria-controls="faq-4">
+                <span>Bagaimana cara memulai?</span>
+                <i class="bi bi-plus-lg"></i>
+              </button>
+              <div id="faq-4" class="collapse">
+                <div class="faq-answer">
+                  <p>Klik tombol Konsultasi Gratis atau isi form kontak, lalu ceritakan target dan tantangan pemasaran Anda. Tim kami umumnya membalas dalam 2-4 jam.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="faq-item" data-category="layanan">
+              <button class="faq-question" type="button" data-bs-toggle="collapse" data-bs-target="#faq-5" aria-expanded="false" aria-controls="faq-5">
+                <span>Layanan apa saja yang tersedia?</span>
+                <i class="bi bi-plus-lg"></i>
+              </button>
+              <div id="faq-5" class="collapse">
+                <div class="faq-answer">
+                  <p>Ada empat layanan utama: Social Media Management, Paid Ads (Meta &amp; Google Ads), Content Creation, serta SEO &amp; Website Optimization. Detail setiap layanan dapat dilihat di halaman Layanan.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="faq-item" data-category="layanan">
+              <button class="faq-question" type="button" data-bs-toggle="collapse" data-bs-target="#faq-6" aria-expanded="false" aria-controls="faq-6">
+                <span>Bisakah saya memilih satu layanan saja?</span>
+                <i class="bi bi-plus-lg"></i>
+              </button>
+              <div id="faq-6" class="collapse">
+                <div class="faq-answer">
+                  <p>Bisa. Layanan dapat dipakai sendiri-sendiri maupun digabung sesuai kebutuhan dan target bisnis Anda.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="faq-item" data-category="layanan">
+              <button class="faq-question" type="button" data-bs-toggle="collapse" data-bs-target="#faq-7" aria-expanded="false" aria-controls="faq-7">
+                <span>Apakah Agensi Digital Marketing juga membuat website baru?</span>
+                <i class="bi bi-plus-lg"></i>
+              </button>
+              <div id="faq-7" class="collapse">
+                <div class="faq-answer">
+                  <p>Layanan kami berfokus pada optimasi website agar mudah ditemukan di mesin pencari dan nyaman dikunjungi. Jika Anda memiliki kebutuhan lain, ceritakan lewat konsultasi gratis dan kami bantu arahkan.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="faq-item" data-category="proses">
+              <button class="faq-question" type="button" data-bs-toggle="collapse" data-bs-target="#faq-8" aria-expanded="false" aria-controls="faq-8">
+                <span>Bagaimana alur kerja sama dengan Agensi Digital Marketing?</span>
+                <i class="bi bi-plus-lg"></i>
+              </button>
+              <div id="faq-8" class="collapse">
+                <div class="faq-answer">
+                  <p>Umumnya diawali dengan konsultasi dan audit, dilanjutkan penyusunan strategi, eksekusi, lalu pelaporan dan optimasi secara berkala. Alur lengkap tiap layanan dapat dilihat di halaman layanan terkait.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="faq-item" data-category="proses">
+              <button class="faq-question" type="button" data-bs-toggle="collapse" data-bs-target="#faq-9" aria-expanded="false" aria-controls="faq-9">
+                <span>Seberapa sering saya menerima laporan?</span>
+                <i class="bi bi-plus-lg"></i>
+              </button>
+              <div id="faq-9" class="collapse">
+                <div class="faq-answer">
+                  <p>Laporan disampaikan secara berkala dan dibuat mudah dipahami. Untuk pengelolaan media sosial, misalnya, laporan performa disampaikan setiap bulan.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="faq-item" data-category="proses">
+              <button class="faq-question" type="button" data-bs-toggle="collapse" data-bs-target="#faq-10" aria-expanded="false" aria-controls="faq-10">
+                <span>Berapa lama hasilnya mulai terlihat?</span>
+                <i class="bi bi-plus-lg"></i>
+              </button>
+              <div id="faq-10" class="collapse">
+                <div class="faq-answer">
+                  <p>Tergantung layanan dan kondisi awal bisnis Anda. Iklan berbayar umumnya memberi data awal lebih cepat, sedangkan SEO dan pembangunan komunitas media sosial membutuhkan waktu yang lebih panjang. Kami jelaskan perkiraannya saat konsultasi.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="faq-item" data-category="biaya">
+              <button class="faq-question" type="button" data-bs-toggle="collapse" data-bs-target="#faq-11" aria-expanded="false" aria-controls="faq-11">
+                <span>Berapa biaya layanan Agensi Digital Marketing?</span>
+                <i class="bi bi-plus-lg"></i>
+              </button>
+              <div id="faq-11" class="collapse">
+                <div class="faq-answer">
+                  <p>Biaya bergantung pada jenis layanan, cakupan pekerjaan, dan target yang ingin dicapai. Setelah konsultasi gratis, kami menyiapkan rekomendasi dan penawaran yang sesuai dengan kebutuhan Anda.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="faq-item" data-category="biaya">
+              <button class="faq-question" type="button" data-bs-toggle="collapse" data-bs-target="#faq-12" aria-expanded="false" aria-controls="faq-12">
+                <span>Apakah anggaran iklan sudah termasuk biaya layanan?</span>
+                <i class="bi bi-plus-lg"></i>
+              </button>
+              <div id="faq-12" class="collapse">
+                <div class="faq-answer">
+                  <p>Anggaran iklan yang dibayarkan ke platform seperti Meta dan Google umumnya terpisah dari biaya jasa pengelolaan. Rinciannya kami jelaskan secara transparan sejak awal.</p>
+                </div>
+              </div>
+            </div>
+
+            </div>
+
+            <div class="faq-empty" id="faq-empty" hidden>
+              <i class="bi bi-search"></i>
+              <p>Tidak ada pertanyaan yang cocok. Coba kata kunci atau kategori lain.</p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </section><!-- /Bagian Tanya Jawab -->
+
+    <!-- Bagian Ajakan Bertindak -->
+    <section id="cta-faq" class="page-cta section">
+
+      <div class="container" data-aos="fade-up">
+        <div class="cta-box">
+          <h2>Belum Menemukan Jawabannya?</h2>
+          <p>Tim kami siap membantu menjawab pertanyaan Anda secara langsung lewat konsultasi gratis.</p>
+          <a href="index.html#contact" class="btn-cta">Hubungi Kami</a>
+        </div>
+      </div>
+
+    </section><!-- /Bagian Ajakan Bertindak -->
+
+  </main>
+
+  <footer id="footer" class="footer position-relative dark-background">
+
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-3 col-md-6 footer-about">
+          <a href="index.html" class="logo d-flex align-items-center mb-3">
+            <img src="assets/img/favicon.png" alt="Agensi Digital Marketing Logo" style="max-height: 75px;">
+          </a>
+          <p>Kami adalah agensi pemasaran digital terpercaya yang berdedikasi membantu bisnis Anda tumbuh melalui strategi online yang terukur dan efektif.</p>
+          <div class="social-links d-flex mt-4">
+            <a href="https://x.com/" target="_blank" rel="noopener noreferrer" aria-label="X (Twitter)"><i class="bi bi-twitter-x"></i></a>
+            <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+            <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+            <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-6 footer-links">
+          <h4>Tautan Berguna</h4>
+          <ul>
+            <li><a href="index.html">Beranda</a></li>
+            <li><a href="about.html">Tentang Kami</a></li>
+            <li><a href="layanan.html">Layanan</a></li>
+            <li><a href="portofolio.html">Portofolio</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="lainnya.html">Lainnya</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3 col-6 footer-links">
+          <h4>Layanan Kami</h4>
+          <ul>
+            <li><a href="seo-website-optimization.html">Optimasi SEO</a></li>
+            <li><a href="social-media-management.html">Media Sosial</a></li>
+            <li><a href="paid-ads.html">Iklan Berbayar</a></li>
+            <li><a href="content-creation.html">Pemasaran Konten</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+          <h4>Hubungi Kami</h4>
+          <p>Jl. Merak No. 108</p>
+          <p>Indonesia 10110</p>
+          <p class="mt-3"><strong>Telepon:</strong> <span>+62 812 3456 7890</span></p>
+          <p><strong>Email:</strong> <span>halo@agensidigitalmarketing.com</span></p>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container copyright text-center mt-4">
+      <p>&copy; <span>Hak Cipta</span> <strong class="px-1 sitename">Agensi Digital Marketing</strong> <span>Seluruh Hak Cipta Dilindungi</span></p>
+    </div>
+
+  </footer>
+
+  <!-- Tombol Kembali ke Atas -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Tombol WhatsApp Melayang -->
+  <a href="https://wa.me/6281234567890?text=Halo%20Agensi%20Digital%20Marketing%2C%20saya%20ingin%20berkonsultasi." class="whatsapp-float d-flex align-items-center justify-content-center" target="_blank" rel="noopener noreferrer" aria-label="Chat via WhatsApp" title="Chat via WhatsApp"><i class="bi bi-whatsapp"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- File JS Vendor -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+
+  <!-- File JS Utama -->
+  <script src="assets/js/main.js"></script>
+
+  <!-- File JS Halaman Tanya Jawab -->
+  <script src="assets/js/tanya-jawab.js"></script>
+
+
+</body>
+
+</html>

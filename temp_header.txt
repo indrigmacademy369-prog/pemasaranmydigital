@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Blog - Agensi Digital Marketing</title>
+  <meta name="description" content="Blog Agensi Digital Marketing: tips, panduan, dan wawasan seputar SEO, media sosial, iklan berbayar, dan pembuatan konten untuk membantu bisnis Anda bertumbuh.">
+  <meta name="keywords" content="blog pemasaran digital, tips SEO, tips media sosial, iklan berbayar, content creation">
+
+  <!-- Favicon -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Font -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- File CSS Vendor -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+
+  <!-- File CSS Utama -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- File CSS Halaman Blog -->
+  <link href="assets/css/blog.css" rel="stylesheet">
+
+  <!-- File CSS Tombol WhatsApp -->
+  <link href="assets/css/whatsapp.css" rel="stylesheet">
+
+<style> .blog-title-link:hover { color: #0d6efd !important; } </style>
+</head>
+
+<body class="blog-page">
+
+  <header id="header" class="header d-flex align-items-center sticky-top">
+    <div class="header-container container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
+        <!-- Hapus komentar baris di bawah jika ingin memakai logo gambar -->
+        <!-- <img src="assets/img/logo.webp" alt=""> -->
+        <img src="assets/img/favicon.png" alt="Agensi Digital Marketing Logo" style="max-height: 75px;">
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html">Beranda</a></li>
+          <li><a href="about.html">Tentang Kami</a></li>
+          <li class="dropdown nav-layanan"><a href="layanan.html"><span>Layanan</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="social-media-management.html">Social Media Management</a></li>
+              <li><a href="paid-ads.html">Paid Ads (Meta &amp; Google Ads)</a></li>
+              <li><a href="content-creation.html">Content Creation</a></li>
+              <li><a href="seo-website-optimization.html">SEO &amp; Website Optimization</a></li>
+            </ul>
+          </li>
+          <li><a href="portofolio.html">Portofolio</a></li>
+          <li><a href="blog.html" class="active">Blog</a></li>
+          <li class="dropdown"><a href="lainnya.html"><span>Lainnya</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="studi-kasus.html">Studi Kasus</a></li>
+              <li><a href="karier.html">Karier</a></li>
+              <li><a href="tanya-jawab.html">Tanya Jawab</a></li>
+            </ul>
+          </li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+      <a class="btn-getstarted" href="index.html#contact">Konsultasi Gratis</a>
+
+    </div>
+  </header>
+
+  <main class="main">
